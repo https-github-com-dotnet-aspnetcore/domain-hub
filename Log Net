@@ -1,0 +1,73 @@
+{
+<!Doctype html>
+<html>
+</head>
+
+<body>
+<p><msnavigation border="0" cellpadding="0" cellspacing="0" width="100%"></p>
+<msnavigation dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+<p>
+
+</p>
+
+</td><td valign="top" width="24"></td><msnavigation valign="top">
+
+<table width="100%" align=left>
+  <tr>
+    <td width="50%">
+	  <b><font size=+3 color="#000080"> Database Editor Login </font></b>
+	</td>
+    <td width="50%" align=right>
+      <table>
+        <tr>
+          <td>
+		<a href="../results_page.asp" target="_top">Results Page</a> | 
+<a href="submission_form.asp" target="_top">Submission Form</a> | 
+Database Editor
+          </td>
+        </tr>
+      </table>
+	</td>
+  </tr>
+</table>
+
+<br clear=all>
+
+<hr>
+
+<FORM ACTION="Login_Validate.asp" METHOD="post">
+
+<p>
+&nbsp;<h3>Database Editor Login</h3>
+<br>
+<p>
+<TABLE BORDER=0>	
+	<TR>
+		<TD ALIGN="right">User name:</TD>
+		<TD><INPUT TYPE="text" NAME="login" size="10" VALUE=''></INPUT></TD>
+	</TR>
+	<TR>
+		<TD ALIGN="right">Password:</TD>
+		<TD><INPUT TYPE="password" NAME="password" size="10" VALUE=''></INPUT></TD>
+	</TR>
+	<TR>
+	  <TD>
+	    <input TYPE="hidden" NAME="requester" VALUE="<%=Server.HtmlEncode(Request("requester"))%>">
+	  </TD>
+	  <TD>
+	    &nbsp;
+	  </TD>
+	</TR>
+	<TR>
+		<TD align="left">
+		  <INPUT TYPE="submit" VALUE="Login"></INPUT>
+		</TD>
+		<TD>
+		</TD>
+	</TR>
+</TABLE>
+</FORM>
+
+<msnavigation border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><center><hr>
+<p><small>
+}
