@@ -1,0 +1,9 @@
+{
+Si tratta dell’“elenco REDIST” per Microsoft Blend per Visual Studio 2012 Add-in per Adobe FXG Import a cui si fa riferimento nella sezione relativa al “Codice Distribuibile” delle Condizioni di Licenza Software Microsoft
+per il software Visual Studio 2012 (il “software”). Se si dispone di una copia validamente concessa di tale software, sarà possibile copiare e distribuire i file 
+contenuti nelle directory seguenti nel formato in codice oggetto senza modifiche, in conformità alle Condizioni di Licenza del software.
+
+{Program Files}\Microsoft SDKs\Expression\Extensions\FXG\Libraries
+{Program Files}\MSBuild\Microsoft\Expression\FXG Extension
+
+}
