@@ -1,0 +1,127 @@
+""{
+-desc "Clean out the coverage and pkg directories"
+-task :clean do
+-  rm_rf 'coverage'
+-  rm_rf 'pkg'
+-  rm Dir.glob('ticgit*gem')
+-end
+-
+-task :default => "pkg/#{spec.name}-#{spec.version}.gem" do
+-    puts "generated latest version"
+-end
+diff --git a/bin/ti b/bin/ti
+deleted file mode 100755
+deleted file mode 100755
+index 8580db4dda..0000000000
+--- a/bin/ti
++++ /dev/null
+@@ -1,11 +0,0 @@
+-#!/usr/bin/env ruby
+-
+-# This is a command line client that does all the actual tic commands
+-#
+-# author : Scott Chacon (schacon@gmail.com)
+-#
+-
+-require 'rubygems'
+-require 'ticgit'
+-#require File.dirname(__FILE__) + '/../lib/ticgit'
+-TicGit::CLI.execute
+\ No newline at end of file
+diff --git a/bin/ticgitweb b/bin/ticgitweb
+deleted file mode 100755
+index ad03e13dc5..0000000000
+--- a/bin/ticgitweb
++++ /dev/null
+@@ -1,308 +0,0 @@
+-#!/usr/bin/env ruby
+-
+-# starts a sinatra based web server that provides an interface to
+-# your ticgit tickets
+-#
+-# some of the sinatra code borrowed from sr's git-wiki
+-#
+-# author : Scott Chacon (schacon@gmail.com)
+-#
+-
+-%w(rubygems sinatra git ticgit haml).each do |dependency|
+-  begin
+-    require dependency
+-  rescue LoadError => e
+-    puts "You need to install #{dependency} before we can proceed"
+-  end
+-end
+-
+-# !! TODO : if ARGV[1] is a path to a git repo, use that
+-# otherwise, look in ~/.ticgit
+-
+-$ticgit = TicGit.open('.')
+-
+-get('/_stylesheet.css') { Sass::Engine.new(File.read(__FILE__).gsub(/.*__END__/m, '')).render }
+-
+-# ticket list view
+-get '/' do
+-  @tickets = $ticgit.ticket_list(:order => 'date.desc')
+-  haml(list('all'))
+-end
+-
+-get '/fs/:state' do
+-  @tickets = $ticgit.ticket_list(:state => params[:state], :order => 'date.desc')
+-  haml(list(params[:state]))
+-end
+-
+-get '/tag/:tag' do
+-  @tickets = $ticgit.ticket_list(:tag => params[:tag], :order => 'date.desc')
+-  haml(list(params[:tag]))
+-end
+-
+-get '/sv/:saved_view' do
+-  @tickets = $ticgit.ticket_list(:saved => params[:saved_view])
+-  haml(list(params[:saved_view]))
+-end
+-
+-# ticket single view
+-get '/ticket/:ticket' do
+-  @ticket = $ticgit.ticket_show(params[:ticket])
+-  haml(show)
+-end
+-
+-
+-# add ticket
+-get '/t/new' do
+-  haml(new_ticket)
+-end
+-
+-# add ticket finalize
+-post '/t/new' do
+-  title = params[:title].to_s.strip
+-  if title.size > 1
+-    tags = params[:tags].split(',').map { |t| t.strip } rescue nil
+-    t = $ticgit.ticket_new(title, {:comment => params[:comment].strip, :tags => tags})
+-    redirect '/ticket/' + t.ticket_id.to_s
+-  else
+-    redirect '/t/new'
+-  end
+-end
+-
+-
+-# add comment
+-post '/a/add_comment/:ticket' do
+-  t = $ticgit.ticket_comment(params[:comment], params[:ticket])
+-  redirect '/ticket/' + params[:ticket]
+-end
+-
+-# add tag
+-post '/a/add_tags/:ticket' do
+-  t = $ticgit.ticket_tag(params[:tags], params[:ticket])
+-  redirect '/ticket/' + params[:ticket]
+-end
+-
+-# change ticket state
+-get '/a/change_state/:ticket/:state' do
+-  $ticgit.ticket_change(params[:state], params[:ticket])
+-  redirect '/ticket/' + params[:ticket]
+-end
+-
+-
+}
