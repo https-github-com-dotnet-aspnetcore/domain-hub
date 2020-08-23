@@ -1,0 +1,62 @@
+{
+Bienvenido a .NET Core
+---------------------
+Aprenda sobre .NET Core en https://aka.ms/dotnet-docs. Use "dotnet --help" para ver los comandos disponibles o vaya a https://aka.ms/dotnet-cli-docs.
+
+Telemetría
+---------
+Las herramientas de .NET Core recopilan datos de uso con el fin de ayudarnos a mejorar su experiencia. Los datos son anónimos y no incluyen argumentos de la línea de comandos. Microsoft recopila los datos y los comparte con la comunidad. Si desea optar por no participar en la telemetría, establezca una variable de entorno DOTNET_CLI_TELEMETRY_OPTOUT en "1" o "true" con el shell de su preferencia.
+
+Obtenga más información sobre la telemetría de las herramientas de la CLI de .NET Core en https://aka.ms/dotnet-cli-telemetry.
+
+ASP.NET Core
+------------
+El certificado de desarrollo HTTPS de ASP.NET Core se ha instalado correctamente.
+Para confiar en el certificado, ejecute "dotnet dev-certs https --trust (solo Windows y macOS). Para establecer la confianza en otras plataformas, consulte la documentación específica de la plataforma.
+Para obtener más información sobre la configuración HTTPS, vea https://go.microsoft.com/fwlink/?linkid=848054.
+Preparándose...
+Uso: new [opciones]
+
+Opciones:
+  -h, --help          Muestra ayuda para este comando.
+  -l, --list          Muestra las plantillas que contienen el nombre especificado. Si no se especifica ningún nombre, muestra todas las plantillas.
+  -n, --name          Nombre de la salida que se va a crear. Si no se especifica ningún nombre, se usa el nombre del directorio actual.
+  -o, --output        Ubicación donde debe ponerse la salida generada.
+  -i, --install       Instala un origen o un paquete de plantillas.
+  -u, --uninstall     Desinstala un origen o un paquete de plantillas.
+  --nuget-source      Especifica un origen de NuGet para usarlo durante la instalación.
+  --type              Filtra las plantillas por los tipos disponibles. Los valores predefinidos son "other", "project" o "item".
+  --force             Fuerza la generación de contenido aunque se produzcan cambios en los archivos actuales.
+  -lang, --language   Filtra plantillas en función del idioma y especifica el idioma de la plantilla que se va a crear.
+
+
+Plantillas                                        Nombre corto       Idioma            Etiquetas
+----------------------------------------------------------------------------------------------------------------------------
+Console Application                               console            [C#], F#, VB      Common/Console
+Class library                                     classlib           [C#], F#, VB      Common/Library
+Unit Test Project                                 mstest             [C#], F#, VB      Test/MSTest
+NUnit 3 Test Project                              nunit              [C#], F#, VB      Test/NUnit
+NUnit 3 Test Item                                 nunit-test         [C#], F#, VB      Test/NUnit
+xUnit Test Project                                xunit              [C#], F#, VB      Test/xUnit
+Razor Page                                        page               [C#]              Web/ASP.NET
+MVC ViewImports                                   viewimports        [C#]              Web/ASP.NET
+MVC ViewStart                                     viewstart          [C#]              Web/ASP.NET
+ASP.NET Core Empty                                web                [C#], F#          Web/Empty
+ASP.NET Core Web App (Model-View-Controller)      mvc                [C#], F#          Web/MVC
+ASP.NET Core Web App                              razor              [C#]              Web/MVC/Razor Pages
+ASP.NET Core with Angular                         angular            [C#]              Web/MVC/SPA
+ASP.NET Core with React.js                        react              [C#]              Web/MVC/SPA
+ASP.NET Core with React.js and Redux              reactredux         [C#]              Web/MVC/SPA
+Razor Class Library                               razorclasslib      [C#]              Web/Razor/Library/Razor Class Library
+ASP.NET Core Web API                              webapi             [C#], F#          Web/WebAPI
+global.json file                                  globaljson                           Config
+NuGet Config                                      nugetconfig                          Config
+Web Config                                        webconfig                            Config
+Solution File                                     sln                                  Solution
+
+Examples:
+    dotnet new mvc --auth Individual
+    dotnet new xunit
+    dotnet new --help
+
+}
