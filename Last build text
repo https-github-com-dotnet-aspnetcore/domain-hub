@@ -1,0 +1,138 @@
+{
+<html>
+<head>
+<meta content="es-mx" http-equiv="Content-Language" 
+id1="type-text/html; javascript/css" runat="server" />
+<meta name="WebPartPageExpansion" content="full" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Twitter</title>
+</head>
+    <body style="background-color:white" runat="server">
+        <msnavigation><table id="msnavigation" runat="server" cellpadding="100" 
+			cellspacing="100" dir="rtl" enableviewstate="false" frame="below" 
+			lang="en-us" style="auto-style7" summary="submit" visible="true" 
+			width="3" xml:lang="es-mx"><em>
+        <!-- The main container. -->
+        <div class="container">
+            
+            <!-- A menu bar. -->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="#">Twitter Bootstrap Example</a>
+                    <ul class="nav"><b>
+                        <li class="active"><a href="Default.cshtml">Home</a></li><br>
+                        <li><a href="About.cshtml">About</a></li><br>
+                        <li><a href="http://www.webmaste.com">Webmaster NET</a></li><br>
+                        <li><a href="Contact.cshtml">Contact</a></li><br>
+                        <li><a href="http://www.webmaste.com" id="msnavigation" 
+						runat="server" charset="utf-8" enableviewstate="false" 
+						lang="en-us" name="row" shape="default" 
+						style="auto-style4" target="self" type="text/asp" 
+						visible="true" xml:lang="es-mx">Webmaster</a></li><br>
+                    </ul></b>
+                    <hr />
+                    <span>
+			<font face="'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" 
+			size="3" style="auto-style2" title="img">Member Hosting </span>
+                    <p>This page contains contact information for all the members of Project. From here 
+you can send e-mail to project members, or visit their personal home pages.</p>
+<p>WebMaster Title<br>
+		Office Location:Domain ianna<br>
+		Mail Stop Number<br>
+		Telephone Extension<br>
+		<a href="mailto:haice_humanos@hotmail.com">someone@example.com</a><br>
+		<a href="http://www.example.com">http://www.example.com</a></p><hr /></font>
+
+                </div>
+            </div>
+ 
+            <h1>Twitter Bootstrap</h1>
+            <p><font face="'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" size="4">This is the first example!</p>
+            
+            <!-- Example row, with four columns. -->
+            <div class="row">
+                <div class="span3">
+                    <h2>Apple</h2>
+                    <p>The apple is the pomaceous fruit of the apple tree, 
+                      species Malus domestica in the rose family.</p>
+                </div>
+                <div class="span3">
+                    <h2>Orange</h2>
+                    <p>The orange (specifically, the sweet orange) is the fruit 
+                      of the citrus Citrus × ​sinensis, 
+                      pecies Citrus × ​sinensis in the family Rutaceae.</p>
+                </div>
+                <div class="span3">
+                    <h2>Peach</h2>
+                    <p>The peach, Prunus persica, is a deciduous tree, 
+                      native to China and South Asia, where it was first cultivated.</p>
+                </div>
+                <div class="span3">
+                    <h2>Pear</h2>
+                    <p>The pear is any of several tree and shrub 
+                       species of genus Pyrus, in the family Rosaceae.</p></font>
+                </div>
+            </div>
+            
+            <hr />
+            
+             <!-- Another row, with two columns. --> ><<    }                }{ }  }      }  } {     
+            <div class="row">
+                <div class="span6">
+                    <h2>Cat</h2>
+                    <p><font face="'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" size="4">The domestic cat (Felis catus or Felis silvestris catus) 
+                      is a small, usually furry, domesticated, carnivorous mammal.</p>
+                </div>
+                <div class="span6">
+                    <h2>Dog</h2>
+                    <p>The domestic dog (Canis lupus familiaris), is a subspecies 
+                      of the gray wolf (Canis lupus), a member of the Canidae 
+                      family of the mammalian order Carnivora.</p></font>
+                </div>
+            </div>
+            
+            <hr />
+            
+            <p><small><font face="'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" size="3">Created by Dave Kerr as an example of the Twitter Bootstrap Framework.</font></small></p>
+ 
+        </div>
+        
+        <!-- Include jQuery and Boostrap. -->
+        <script src="jquery-latest.js"></script><a href="https://twitter.com/fortino_samuel?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @fortino_samuel</a><br />
+        <script src="bootstrap/js/bootstrap.min.js" id="header" runat="server" 
+			charset="utf-8" enableviewstate="true" language="javascript" 
+			ondatabinding="fp_class=http" type="text/javascript" 
+			xml:space="default"></script></em><b><br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<a href="Index-home.html">Back To Index</a><img alt="nait" 
+			height="38" longdesc="har" src="Home11.png" width="50" /><br></table>
+    </b>
+ 
+  <table bgcolor="navy" id="msnavigation" runat="server" enableviewstate="true" 
+			frame="border" style="height: 28px; width: 45px">
+  </table>
+
+		</msnavigation>
+     
+  
+
+		<p>&nbsp;</p>
+		<p><br />
+				     
+  
+
+
+<h5>Author information goes here.<br></b>
+Copyright © 2001 [OrganizationName]. All rights reserved.<br><b>
+Revised: <!--webbot bot="TimeStamp" s-format="%m/%d/%y" s-type="EDITED" -->.</h5><br>
+
+
+</body>
+
+</html>
+
+}
