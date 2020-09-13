@@ -1,0 +1,18 @@
+# az relay hyco create --name myhyco --namespace-name mynamespace --resource-group myresourcegroup
+# az relay hyco list --namespace-name mynamespace --resource-group myresourcegroup
+# az relay wcfrelay delete --resource-group myresourcegroup --namespace-name mynamespace --name myrelay
+# az vm nic list --resource-group MyResourceGroup --vm-name MyVm
+time=`date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ'`
+# az storage blob restore --account-name mystorageaccount -g MyResourceGroup -t $time -r container0/blob1 container0/blob2 --no-wait
+# az storage entity query --connection-string myconnectionstring --filter {filter} --table-name MyTable
+# az openshift create --aad-client-app-id {APP_ID} --aad-client-app-secret {APP_SECRET} --aad-tenant-id {TENANT_ID} --customer-admin-group-id {GROUP_ID} --location westus2 --name MyManagedCluster --resource-group MyResourceGroup
+# az openshift show --name MyManagedOpenShiftCluster --resource-group MyResourceGroup
+# az openshift delete --name MyManagedOpenShiftCluster --resource-group MyResourceGroup
+# az sql db create --name mydb --resource-group mygroup --server myserver --service-objective S0
+# az sql server firewall-rule create --end-ip-address 0.0.0.0 --name myrule --resource-group mygroup --server myserver --start-ip-address 0.0.0.0
+# endif region is "as" component wellder and this prototype "dbtype" and standard is time null or boolean="?xml"
+# az managedapp definition create --authorizations "myPrincipalId:myRoleId" --description "My Managed App Def description" --display-name "MyManagedAppDef" --location eastus --lock-level CanNotDelete --name MyManagedAppDef --package-file-uri "https://path/to/myPackage.zip" --resource-group MyResourceGroup
+# az managedapp list --resource-group MyResourceGroup
+{
+    [You have 3 updates available. Consider updating your CLI installation with 'https://aka.ms/installazurecliwindows'. Detailed instructions can be found at https://aka.ms/doc/UpdateAzureCliMsi ]
+}
