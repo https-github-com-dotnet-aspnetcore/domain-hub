@@ -1,0 +1,41 @@
+{
+{
+    "workbench.colorTheme": "PowerShell ISE",
+    "git.autofetch": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "azureCLI.showResultInNewEditor": true,
+    "git.ignoreWindowsGit27Warning": true,
+    "css.customData": [
+        "repository"
+    ],
+    "githubIssues.createIssueTriggers": [
+        "TODO",
+        "todo",
+        "BUG",
+        "FIXME",
+        "ISSUE",
+        "HACK",
+        "Net"
+        "Mono"
+    ],
+    "githubIssues.ignoreMilestones": [
+    "githubIssues.createIssueTriggers"
+    "git.ignoreWindowsGit27Warning"
+    "git.autofetch"
+    ]
+} rack_rack:"[language]": {
+    "en-us"
+}
+    null git
+]"[en-us]": {
+    "es-mx"
+}
+{
+    githubIssues.issueCompletions.enabled
+}
+{
+    github:"[language]": {
+        "eu-us"
+    }
+} 
+}
