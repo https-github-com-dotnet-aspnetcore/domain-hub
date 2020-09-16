@@ -1,0 +1,234 @@
+{
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.26.2.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --git-dir
+Open repository: c:\Users\Fortinosamuel\depot\opensource.guide
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git check-ignore -v -z --stdin
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --local branch.master.github-pr-owner-number
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :.vscode/launch.json
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\launch.json
+> git config --local branch.master.github-pr-owner-number
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.vscode/Github Nuget.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- c:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git show --textconv HEAD:.vscode/Github Nuget.txt
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- c:\Users\Fortinosamuel\depot\opensource.guide\maven package.txt
+> git show --textconv :maven package.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\maven package.txt
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- c:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git show --textconv :.vscode/Github Nuget.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git show --textconv :github package sam.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git fetch
+> git rev-list --count working.. -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git rev-list --count working.. -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git show --textconv :github package sam.txt
+> git show --textconv HEAD:.vscode/Github Nuget.txt
+> git rev-list --count working.. -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git rev-list --count working.. -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+fatal: bad revision 'working..'
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -- c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git show --textconv HEAD:github package sam.txt
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git show --textconv HEAD:maven package.txt
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\maven package.txt
+> git show --textconv HEAD:Package npm.txt
+> git ls-tree -l HEAD -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- c:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- c:\Users\Fortinosamuel\depot\opensource.guide\maven package.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- c:\Users\Fortinosamuel\depot\opensource.guide\Ruby package.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git add -A -- c:\Users\Fortinosamuel\depot\opensource.guide\.vscode\Github Nuget.txt c:\Users\Fortinosamuel\depot\opensource.guide\.vscode\launch.json c:\Users\Fortinosamuel\depot\opensource.guide\github package sam.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Fortinosamuel@VAIO.(none)')
+> git config --get-all user.name
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+> git show --textconv :Package npm.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref 'c:\Users\Fortinosamuel\depot\opensource.guide\.git\refs\remotes\origin\master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- C:\Users\Fortinosamuel\depot\opensource.guide\Package npm.txt
+> git cat-file -s 67af3af2ce39f602a7856e594047df81caeaeb9e
+> git show --textconv :Package npm.txt
+}
+}
