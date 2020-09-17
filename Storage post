@@ -1,0 +1,14 @@
+fatal: missing object 1a410efbd13591db07496601ebc7a059dd55cfe9 for refs/heads/master
+fatal: missing object 1a410efbd13591db07496601ebc7a059dd55cfe9 for refs/heads/master
+    while executing
+"close $fr_fd"
+    (procedure "_new" line 104)
+    invoked from within
+"_new $path 0 $title"
+    (procedure "::choose_rev::new" line 2)
+    invoked from within
+"::choose_rev::new $w.rev [mc Revision]"
+    (procedure "browser_open::dialog" line 21)
+    invoked from within
+"browser_open::dialog"
+    (menu invoke)
